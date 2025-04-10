@@ -1,0 +1,6 @@
+---
+- name: Deploy Prometheus microservice
+  hosts: all
+  become: yes
+  roles:
+    - microservice
