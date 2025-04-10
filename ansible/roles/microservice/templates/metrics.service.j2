@@ -1,0 +1,10 @@
+[Unit]
+Description=Prometheus metrics HTTP server
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/metrics_app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
