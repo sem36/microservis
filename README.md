@@ -1,6 +1,6 @@
-Основной системой является OC Windows
+# Основной системой является OC Windows
 
-Перед запуском убедиться что на ней установлен
+# Перед запуском убедиться что на ней установлен
 
   1)Vagrant (https://developer.hashicorp.com/vagrant/install)
   
@@ -8,7 +8,7 @@
   
   3)VirtualBox (https://www.virtualbox.org/wiki/Downloads)
 
-Далее выполнить команды:
+# Далее выполнить команды:
   1) git clone https://github.com/sem36/microservis.git
   2) cd microservis
   3) vagrant up
